@@ -69,14 +69,19 @@ header {
 }
 .km-counter {
     font-size: 2rem;
+    transition: all 0.3s ease;
 }
 .km-text {
     margin: 1rem 0;
 }
-#add-km-btn {
+.add-km-btn {
     width: 15rem;
     height: 3rem;
 }
 .km-number {
     font-weight: 600;
+}
+
+.switched1 {
+    opacity: 0;
 }
