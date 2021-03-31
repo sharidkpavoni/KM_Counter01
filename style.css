@@ -82,6 +82,10 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.text2 {
+    margin: 0 25px;
+}
+
 .text2, .text3 {
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
