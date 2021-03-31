@@ -42,46 +42,57 @@ table {
 	border-spacing: 0;
 }
 
+/* To hide arrows from input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* ------------------------------------- */
+
 html {
     font-family: 'Quicksand', sans-serif;
 }
 
 body {
     background-color: white;
-}
-
-.add-km-page {
-    display:none;
-}
-
-.index-page {
-    width: 100%;
     height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BASIC STYLING */
+
+.info, .add-km {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-header {
-    font-size: 3rem;
-    font-weight: 600;
-}
-.km-counter {
-    font-size: 2rem;
-    transition: all 0.3s ease;
-}
-.km-text {
-    margin: 1rem 0;
-}
-.add-km-btn {
-    width: 15rem;
-    height: 3rem;
-}
-.km-number {
-    font-weight: 600;
+.info {
+    margin-bottom: 2rem;
 }
 
-.switched1 {
-    opacity: 0;
+.text1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
+
+.text2, .text3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.km-input {
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 2rem;
+    width: 6rem;
+    text-align: center;
+}
+
