@@ -83,8 +83,9 @@ body {
 }
 
 .text2, .text3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .km-input {
